@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZMZdaima_Example' do
+  pod 'ZMZdaima', :path => '../'
+
+  target 'ZMZdaima_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
